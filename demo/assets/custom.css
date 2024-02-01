@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: "SourceHanSerifSC-Light-min";
+    src: url("./SourceHanSerifSC-Light-min.otf");
+}
+
+.text {
+  font-family: 'SourceHanSerifSC-Light-min';
+  font-size: 30px;
+  padding: 24px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  background-image: url("./金箔效果背景.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text .header {
+  text-align: center;
+}
